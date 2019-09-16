@@ -1,0 +1,44 @@
+body {
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+#content {
+  max-width: 600px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #content {
+    max-width: 350px;
+  }
+}
+
+#sounds {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+.btn {
+  line-height: 100px;
+  font-size: 75px;
+  cursor: pointer;
+  display: inline-block;
+  flex-grow: 1;
+  margin: 25px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+.btn:hover {
+  transform: scale(1.8); 
+}
