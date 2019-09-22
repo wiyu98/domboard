@@ -39,6 +39,8 @@ body {
                                 supported by Chrome and Opera */
 }
 
-.btn:hover {
-  transform: scale(1.8); 
+@media screen and (min-width: 600px) {
+  .btn:hover {
+    transform: scale(1.8); 
+  }
 }
